@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "name": "WTF Agency Brand Palette",
+    "version": "1.0",
+    "description": "Premium editorial + fashion + corporate color system",
+    "reference": "Droga5 + Vogue aesthetic inspiration",
+    "last_updated": "2026-03-08"
+  },
+  
+  "primary": {
+    "brand_black": {
+      "hex": "#000000",
+      "rgb": [0, 0, 0],
+      "cmyk": [0, 0, 0, 100],
+      "usage": "Logo, headlines, premium text"
+    },
+    "brand_white": {
+      "hex": "#FFFFFF", 
+      "rgb": [255, 255, 255],
+      "cmyk": [0, 0, 0, 0],
+      "usage": "Logo on dark, backgrounds, clean space"
+    },
+    "brand_accent": {
+      "hex": "#[TO_DEFINE]",
+      "rgb": "[TO_DEFINE]",
+      "cmyk": "[TO_DEFINE]",
+      "usage": "Key brand moments, CTAs, highlights"
+    }
+  },
+
+  "secondary": {
+    "editorial_gray": {
+      "hex": "#[TO_DEFINE]",
+      "rgb": "[TO_DEFINE]",
+      "usage": "Body text, sophisticated backgrounds"
+    },
+    "premium_charcoal": {
+      "hex": "#[TO_DEFINE]", 
+      "rgb": "[TO_DEFINE]",
+      "usage": "Editorial layouts, premium feel"
+    },
+    "soft_neutral": {
+      "hex": "#[TO_DEFINE]",
+      "rgb": "[TO_DEFINE]",
+      "usage": "Backgrounds, subtle elements"
+    }
+  },
+
+  "editorial": {
+    "vogue_inspired": {
+      "hex": "#[TO_DEFINE]",
+      "rgb": "[TO_DEFINE]",
+      "usage": "Fashion-forward campaigns, luxury positioning"
+    },
+    "magazine_accent": {
+      "hex": "#[TO_DEFINE]",
+      "rgb": "[TO_DEFINE]", 
+      "usage": "Editorial highlights, sophisticated accents"
+    },
+    "premium_gold": {
+      "hex": "#[TO_DEFINE]",
+      "rgb": "[TO_DEFINE]",
+      "usage": "Luxury campaigns, premium positioning"
+    }
+  },
+
+  "functional": {
+    "success": {
+      "hex": "#[TO_DEFINE]",
+      "rgb": "[TO_DEFINE]",
+      "usage": "Success states, positive messaging"
+    },
+    "warning": {
+      "hex": "#[TO_DEFINE]",
+      "rgb": "[TO_DEFINE]",
+      "usage": "Attention, important information"
+    },
+    "error": {
+      "hex": "#[TO_DEFINE]",
+      "rgb": "[TO_DEFINE]",
+      "usage": "Error states, critical messaging"
+    }
+  },
+
+  "guidelines": {
+    "primary_usage": "Use brand_black and brand_white as foundation. Accent color for strategic emphasis only.",
+    "secondary_usage": "Editorial grays for sophisticated hierarchy. Premium charcoal for luxury feel.",
+    "editorial_usage": "Fashion-inspired colors for lifestyle campaigns. Magazine accents for editorial content.",
+    "contrast_ratios": "Ensure WCAG AA compliance. Editorial sophistication with accessibility.",
+    "brand_voice": "Colors should feel premium, sophisticated, and creatively confident.",
+    "avoid": "Generic corporate blues, overly bright colors, amateur color combinations"
+  },
+
+  "applications": {
+    "logo": ["brand_black", "brand_white", "brand_accent"],
+    "headlines": ["brand_black", "premium_charcoal", "brand_accent"],
+    "body_text": ["brand_black", "editorial_gray"],
+    "backgrounds": ["brand_white", "soft_neutral"],
+    "accents": ["brand_accent", "vogue_inspired", "magazine_accent"],
+    "luxury_campaigns": ["brand_black", "premium_gold", "brand_white"],
+    "editorial_layouts": ["editorial_gray", "premium_charcoal", "magazine_accent"]
+  }
+}
